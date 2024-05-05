@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .bike-image img {
+    width: 300px; /* Ajuste a largura conforme necessário */
+  }
+  
+  .text-content {
+    width: 60%; /* Ajuste a largura conforme necessário */
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .text-content h1 {
+    color: #333; /* Ajuste a cor conforme necessário */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
+  .text-content p {
+    color: #666; /* Ajuste a cor conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
+  button {
+    background-color: #004aad; /* Ajuste a cor do botão conforme necessário */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
