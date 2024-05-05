@@ -12,6 +12,8 @@
     --h1-font: 4rem;
     --p-font: 1rem;
     --main-color: #205d63;
+    --other-color: #fcfcfc;
+
 }
 
 
@@ -35,10 +37,56 @@ header{
     display: flex;
     align-items: center;
     color: var(--tex-color);
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 .logo i{
+    color: var(--main-color);
+    font-size: 32px;
+    margin-right: 5px;
+
+}
+
+.navegação{
+    display: flex;
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: 29px;
+    font-weight: 500;
+    margin: 0 30px; /*distancia um do outro *menu* */
+    transition: a .55s ease;
+}
+
+.navegação a:hover{
+    color: var(--main-color);
+
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+
+#login{
+    font-size: 35px;
+    color: #fcfcfc;
+    z-index: 1001;
+    cursor: pointer;
+    margin: 0 40px;
+    padding-top: 9px;;
+}
+
+.header-icons{
+    margin-right: 30px;
+    font-size: 36px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
     color: var(--main-color);
 }
