@@ -1,34 +1,44 @@
-.container {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{                     /*PADROES DA PAGINA*/
+    --tex-color: #fff;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+    --main-color: #205d63;
+}
+
+
+body{
+    color: var(--tex-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .bike-image img {
-    width: 300px; /* Ajuste a largura conforme necessário */
-  }
-  
-  .text-content {
-    width: 60%; /* Ajuste a largura conforme necessário */
-    padding: 20px;
-    text-align: left;
-  }
-  
-  .text-content h1 {
-    color: #333; /* Ajuste a cor conforme necessário */
-    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-  }
-  
-  .text-content p {
-    color: #666; /* Ajuste a cor conforme necessário */
-    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
-  }
-  
-  button {
-    background-color: #004aad; /* Ajuste a cor do botão conforme necessário */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
+    padding: 30px 8%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: var(--main-color);
+}
