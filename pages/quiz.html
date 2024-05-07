@@ -8,20 +8,21 @@
     <link rel="icon" href="../img/icone-quiz.png">
 </head>
 <body>
-    <h2>QUIZ APP</h2>
-    <main class="content">
-        <div>
-            <span class="spnQtd"></span>
-            <span class="question"></span>
-            <div class="answers"></div>
+    <div class="container">
+      <div class="questions-container hide">
+        <span class="question">Pergunta aqui?</span>
+        <div class="answers-container">
+          <button class="answer button">Resposta 1</button>
+          <button class="answer button">Resposta 2</button>
+          <button class="answer button">Resposta 3</button>
+          <button class="answer button">Resposta 4</button>
         </div>
-        <div class="finish">
-            <span></span>
-            <button>Reiniciar</button>
-            <button>Home</button>
-
-        </div>
-    </main>
-
-</body>
+      </div>
+      <div class="controls-container">
+        <button class="start-quiz button">Começar Quiz!</button>
+        <button class="next-question button hide">Próxima pergunta</button>
+      </div>
+    </div>
+  </body>
+  <script src="../js/quiz.js"></script>
 </html>
