@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="icon" href="../img/icone-telefone.png">
-    <link rel="stylesheet" href="../css/sobre-contato.css">
+    <link rel="stylesheet" href="../css/contato.css">
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -26,42 +26,59 @@
         <ul class="navegação">
             <li><a href="../index.html">Home</a></li>
             <li><a href="sobre.html" id="sobre">Sobre</a></li>
-            <li><a href="contato.html" target="_blank" id="contato1">Contato</a></li>
+            <li><a href="contato.html"  id="contato1">Contato</a></li>
             <li><a href="login.html" target="_blank ">Login</a></li> <!-- ABRIR EM OUTRA ABA "_BLANK" -->
         </ul> <!-- NAVEGAÇÃO -->
 
        
     </header>
     
-
-    <section class="Home">
-        
-        <div class="home-text">
-            
-            <h1> 𝐂𝐨𝐧𝐭𝐚𝐜𝐭: </h1> 
-            
-            
-            
-
-            
-        </div>
-       
-
-
-    </section>
-
     <div class="container">
 
         <div class="header">
-            <h2>Contact Us</h2>
+            
         </div>
 
         <form class="form" id="form">
-
-            <div class="form-control">
+            <h1>Contact us</h1>
+                
+            <div class="form-control ">
                 <label for="username" >Nome</label>
                 <input type="text" id="username">
+                <i><img class="img-success" src="../img/success-icon.svg" alt="certo"></i>
+                <i><img class="img-error"src="../img/error-icon.svg" alt="errado"></i>
+
+                <small>Preencha esse campo!</small>
+
+
             </div>
+
+
+
+            <div class="form-control">
+                <label for="username" >Email</label>
+                <input type="email" id="email">
+                <i><img class="img-success" src="../img/success-icon.svg" alt="certo"></i>
+                <i><img class="img-error"src="../img/error-icon.svg" alt="errado"></i>
+
+                
+            </div>
+
+            <div class="form-control ">
+                <label for="username" >Telefone</label>
+                <input type="number" id="telefone">
+                <i><img class="img-success" src="../img/success-icon.svg" alt="certo"></i>
+                <i><img class="img-error"src="../img/error-icon.svg" alt="errado"></i>
+
+                
+            </div>
+
+            <button type="submit">ENVIAR</button>
+
+
+
+
+        
 
         </form>
 
@@ -73,19 +90,6 @@
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="./js/script.js"></script>
+    <script src="../js/contato.js"></script>
 </body>
 </html>

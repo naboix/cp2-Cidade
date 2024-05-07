@@ -125,7 +125,7 @@ p{
 
 
 
-img {
+.gif {
     width: 35rem;
     height: auto;
     
@@ -155,8 +155,4 @@ h1{
 
 }
 
-#contato1{
-    color:  #205d63;
-    text-decoration:line-through;
 
-}
