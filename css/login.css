@@ -56,12 +56,14 @@ body *{
     background: #2f2841;
     border-radius: 15px;
     box-shadow: 0px 10px 40px #00000056; /*primeiro valor lado, segundo cima baixo, terceiro blur*/
+    margin-right: 250px;
 }
 
 .card-login > h1{
     color: #00ff88;
     font-weight: 800;
     margin: 0;
+    
 }
 
 .textfield{

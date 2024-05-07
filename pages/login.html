@@ -20,18 +20,35 @@
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="textfield">
-                    <label for="usario">Usuário</label>
-                    <input type="text" name="usario" placeholder="Usuário">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="login">
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" placeholder="Senha" id="senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <input type="submit" class="btn-login" value="Login" onclick="logar(); return false" >
             </div>
         </div>
             
     
     </div>
+
+    <script>
+        function logar(){
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if (login == "ncreative" && senha == "123"){
+                alert ('Sucesso')
+                location.href = "quiz.html"; //localização redirect
+
+            }else{
+                alert ('SENHA OU LOGIN INCORRETO!!!')
+            }
+            }
+
+    </script>
 </body>
 </html>
