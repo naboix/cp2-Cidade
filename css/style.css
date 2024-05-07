@@ -146,3 +146,8 @@ img {
     width: 60rem;
     height: auto;
 }
+
+#home1{
+    color:  #205d63;
+    text-decoration:line-through;
+}
